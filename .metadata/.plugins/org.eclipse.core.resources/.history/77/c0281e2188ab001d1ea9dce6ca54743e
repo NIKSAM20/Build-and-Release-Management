@@ -1,0 +1,17 @@
+package brm.lab6;
+
+import static org.junit.Assert.*;
+
+import Mypkg6.Average;
+
+public class AverageTest {
+
+	@test
+	public void test() {
+		
+		Average obj = new Average();
+		
+		assertEquals(20, obj.avg(30, 20, 10));
+	}
+
+}
